@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QTrip</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            
+            <!-- Navbar Brand | ALIGN_LEFT -->
+            <a href="./index.html" class="navbar-brand">
+                QTrip
+            </a>
+
+            <!-- Toggle-Menu-Icon - On Small Devices | ALIGN_RIGHT -->
+            <button type="button"
+                    class="navbar-toggler" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse navbar-nav justify-content-end" id="navbarDropdown">
+                <div class="navbar-nav">
+                        <a href="./index.html" class="nav-link active">
+                            Home
+                        </a>
+                    
+                        <a href="#" class="nav-link">
+                            Explore
+                        </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="hero-image">
+        <div class="hero-heading">
+            Welcome to QTrip
+        </div class="hero-heading">
+
+        <div class="hero-subheading">
+            Explore the world with fantastic places to venture around
+        </div>
+
+        <input type="text" class="hero-input" placeholder="Select a city">
+    </div>
+
+    <!-- Images Grid -->
+    <div class="container">
+        <div class="row">
+            <!-- should be responsive -->
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="./pages/adventures.html">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Bengaluru</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/bengaluru.jpg" alt="bengaluru">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Dubai</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/dubai.jpg" alt="dubai">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Goa</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/goa.jpg" alt="goa">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Kolkata</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/kolkata.jpg" alt="kolkata">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Malaysia</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/malaysia.jpg" alt="malaysia">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Mumbai</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/mumbai.jpg" alt="mumbai">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Paris</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/paris.jpg" alt="paris">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                <a href="#">
+                    <div class="tile">
+                        <div class="tile-text">
+                            <h3 class="title-text">Singapore</h3>
+                            <h6 class="title-text">100+ Places</h6>
+                        </div>
+                        <img src="./assets/cities/singapore.jpg" alt="singapore">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; QTrip 2022
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
